@@ -1,0 +1,41 @@
+# Byte-compiled / optimised files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+/static_root/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+passwords.txt
+credentials.txt
+secrets.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Note: Pipfile.lock is deliberately NOT ignored. It pins exact dependency
+# versions so anyone cloning the repo gets a reproducible environment.
